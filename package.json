@@ -1,0 +1,19 @@
+{
+  "name": "create-acc-project",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "acceleratorjs": "index.js"
+  },
+  "dependencies": {
+    "degit": "^2.8.4",
+    "enquirer": "^2.3.6",
+    "kolorist": "^1.6.0",
+    "prompts": "^2.4.2"
+  }
+}

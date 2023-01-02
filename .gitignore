@@ -1,0 +1,7 @@
+*.log*
+verdaccio-*.tgz
+.DS_Store
+build/
+dist/
+.eslintcache
+node_modules
