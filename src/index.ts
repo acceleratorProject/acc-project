@@ -41,8 +41,7 @@ import initialVanilla from './vanilla/index.js'
           REACTSTATE.variant = variantResponse?.variant
           await initialReact()
         }
-        frameworkResponse.framework === 'vanilla' &&
-          initialVanilla(variantResponse?.variant)
+        frameworkResponse.framework === 'vanilla' && initialVanilla()
         frameworkResponse.framework === 'express' && initialExpress()
       }
     }
