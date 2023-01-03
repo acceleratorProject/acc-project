@@ -2,9 +2,9 @@ import question from '../commons/question.js'
 
 import { REACTSTATE } from '../commons/states.js'
 
-import initialTheme from "./paths/theme.js"
+import initialTheme from './paths/theme.js'
 
-const initialReact = async (variant) => {
+const initialReact = async () => {
   const stylesResponse = await question({
     type: 'select',
     name: 'styles',
@@ -15,14 +15,13 @@ const initialReact = async (variant) => {
       { title: 'ChakraUI', value: 'chakraUi' },
       { title: 'MUI', value: 'mui' },
       { title: 'Styled-Components', value: 'styledComponents' },
-      { title: 'Emotion', value: 'emotion' },
+      { title: 'Emotion', value: 'emotion' }
     ]
   })
-  if (stylesResponse.styles) {
+  if (stylesResponse?.styles) {
     REACTSTATE.styles = stylesResponse.styles
-    initialTheme()
+    await initialTheme()
   }
 }
-
 
 export default initialReact

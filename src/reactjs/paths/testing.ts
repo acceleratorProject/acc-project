@@ -12,14 +12,13 @@ const initialTesting = async () => {
       { title: 'Vitest', value: 'vitest' },
       { title: 'Cypress', value: 'cypress' },
       { title: 'all', value: 'all' },
-      { title: 'none', value: 'none' },
+      { title: 'none', value: 'none' }
     ]
   })
-  if (testingResponse.testing) {
+  if (testingResponse?.testing) {
     REACTSTATE.testing = testingResponse.testing
-    cloneTemplate();
+    await cloneTemplate()
   }
 }
-
 
 export default initialTesting

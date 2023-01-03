@@ -12,14 +12,13 @@ const initialCode = async () => {
       { title: 'Custom Hooks', value: 'customHooks' },
       { title: 'Components UI', value: 'componentsUi' },
       { title: 'all', value: 'all' },
-      { title: 'none', value: 'none' },
+      { title: 'none', value: 'none' }
     ]
   })
-  if (codeResponse.code) {
+  if (codeResponse?.code) {
     REACTSTATE.code = codeResponse.code
-    initialTesting()
+    await initialTesting()
   }
 }
-
 
 export default initialCode

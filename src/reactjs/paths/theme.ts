@@ -2,26 +2,25 @@ import question from '../../commons/question.js'
 
 import { REACTSTATE } from '../../commons/states.js'
 
-import initialCode from "./code.js"
-import innitialTesting from "./testing.js"
+import initialCode from './code.js'
+import innitialTesting from './testing.js'
 
-const initialTheme = async (variant) => {
+const initialTheme = async () => {
   if (REACTSTATE.styles !== 'css' && REACTSTATE.styles !== 'tailwind') {
     const tehemeResponse = await question({
       type: 'confirm',
       name: 'theme',
-      message: 'Custom theme:',
+      message: 'Custom theme:'
     })
-    if (tehemeResponse.theme) {
+    if (tehemeResponse?.theme) {
       REACTSTATE.theme = true
-      initialCode()
+      await initialCode()
     } else {
-      innitialTesting()
+      await innitialTesting()
     }
   } else {
-    innitialTesting()
+    await innitialTesting()
   }
 }
-
 
 export default initialTheme
