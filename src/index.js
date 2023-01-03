@@ -1,9 +1,9 @@
-import question from './src/commons/question.js'
-import { REACTSTATE, GLOBALSTATE } from './src/commons/states.js'
+import question from './commons/question.js'
+import { REACTSTATE, GLOBALSTATE } from './commons/states.js'
 
-import initialExpress from './src/express/index.js';
-import initialReact from './src/reactjs/index.js'
-import initialVanilla from './src/vanilla/index.js';
+import initialExpress from './express/index.js';
+import initialReact from './reactjs/index.js'
+import initialVanilla from './vanilla/index.js';
 
 (async function () {
   try {
