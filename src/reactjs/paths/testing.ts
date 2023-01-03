@@ -11,7 +11,7 @@ const initialTesting = async () => {
     choices: [
       { title: 'Vitest', value: 'vitest' },
       { title: 'Cypress', value: 'cypress' },
-      { title: 'all', value: 'all' },
+      { title: 'Vitest-Cypress', value: 'vitest-cypress' },
       { title: 'none', value: 'none' }
     ]
   })

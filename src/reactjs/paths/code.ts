@@ -11,7 +11,7 @@ const initialCode = async () => {
     choices: [
       { title: 'Custom Hooks', value: 'customHooks' },
       { title: 'Components UI', value: 'componentsUi' },
-      { title: 'all', value: 'all' },
+      { title: 'all', value: 'customHooks-componentsUi' },
       { title: 'none', value: 'none' }
     ]
   })

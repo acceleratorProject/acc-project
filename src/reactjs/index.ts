@@ -12,7 +12,7 @@ const initialReact = async () => {
     choices: [
       { title: 'CSS', value: 'css' },
       { title: 'Tailwind', value: 'tailwind' },
-      { title: 'ChakraUI', value: 'chakraUi' },
+      { title: 'ChakraUI', value: 'chakra' },
       { title: 'MUI', value: 'mui' },
       { title: 'Styled-Components', value: 'styledComponents' },
       { title: 'Emotion', value: 'emotion' }
