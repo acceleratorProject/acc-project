@@ -1,6 +1,6 @@
 {
   "name": "create-acc-project",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "From accelerator we offer this CLI with which you can accelerate and simplify the creation of your projects. We also have an incredible documentation where you can always learn something new.",
   "keywords": [
