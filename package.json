@@ -1,8 +1,35 @@
 {
   "name": "create-acc-project",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "type": "module",
-  "description": "",
+  "description": "From accelerator we offer this CLI with which you can accelerate and simplify the creation of your projects. We also have an incredible documentation where you can always learn something new.",
+  "keywords": [
+    "CLI",
+    "javascript",
+    "typescript",
+    "react",
+    "vanilla",
+    "accelerate",
+    "vitest",
+    "chakraui",
+    "tailwind",
+    "css",
+    "mui",
+    "styled components",
+    "emotion",
+    "theme",
+    "custom hooks",
+    "components"
+  ],
+  "homepage": "https://acceleratorjs.dev/",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/acceleratorProject/acc-project"
+  },
+  "bugs": {
+    "url": "https://github.com/acceleratorProject/acc-project/issues",
+    "email": "accelerator.dev@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
@@ -20,6 +47,11 @@
     "kolorist": "^1.6.0",
     "prompts": "^2.4.2"
   },
+  "author": {
+    "name": "Alberto Rivera & Alex Tomas",
+    "email": "alberto.rivera.merida@gmail.com & atomasllimos@gmail.com",
+    "url": "https://www.linkedin.com/in/albertoriveramerida/ & https://www.linkedin.com/in/alex-tomas--/"
+  },
   "devDependencies": {
     "@types/degit": "^2.8.3",
     "@types/node": "^18.11.9",
@@ -35,13 +67,6 @@
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4",
     "vitest": "^0.26.2"
-  },
-  "lint-staged": {
-    "*.+(ts|tsx)": [
-      "npm run lint:fix",
-      "npm run compile",
-      "git add . "
-    ]
   },
   "bin": {
     "acceleratorjs": "index.js"
