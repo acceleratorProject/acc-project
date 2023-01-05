@@ -54,13 +54,7 @@
     "typescript": "^4.9.4",
     "vitest": "^0.26.2"
   },
-  "lint-staged": {
-    "*.+(ts|tsx)": [
-      "npm run lint:fix",
-      "npm run compile",
-      "git add . "
-    ]
-  },
+  
   "bin": {
     "acceleratorjs": "index.js"
   }
