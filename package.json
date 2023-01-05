@@ -21,7 +21,11 @@
     "custom hooks",
     "components"
   ],
-  "homepage": "https://github.com/acceleratorProject/acc-project",
+  "homepage": "https://acceleratorjs.dev/",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/acceleratorProject/acc-project"
+  },
   "bugs": {
     "url": "https://github.com/acceleratorProject/acc-project/issues",
     "email": "accelerator.dev@gmail.com"
