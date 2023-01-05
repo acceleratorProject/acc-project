@@ -22,6 +22,10 @@
     "components"
   ],
   "homepage": "https://github.com/acceleratorProject/acc-project",
+  "bugs": {
+    "url": "https://github.com/acceleratorProject/acc-project/issues",
+    "email": "accelerator.dev@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
