@@ -21,6 +21,7 @@
     "custom hooks",
     "components"
   ],
+  "homepage": "https://github.com/acceleratorProject/acc-project",
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
@@ -54,7 +55,6 @@
     "typescript": "^4.9.4",
     "vitest": "^0.26.2"
   },
-  
   "bin": {
     "acceleratorjs": "index.js"
   }
