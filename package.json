@@ -2,7 +2,7 @@
   "name": "create-acc-project",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "From accelerator we offer this CLI with which you can accelerate and simplify the creation of your projects. We also have an incredible documentation where you can always learn something new.",
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
