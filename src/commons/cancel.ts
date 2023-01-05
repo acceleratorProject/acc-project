@@ -1,6 +1,6 @@
 import { red } from 'kolorist'
 
-const onCancel = () => {
+const onCancel = (): Error => {
   const msg = `${red('✖')} Operation cancelled`
   throw new Error(msg)
 }

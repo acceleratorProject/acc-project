@@ -1,7 +1,8 @@
-import prompts from 'prompts'
+import prompts, { Answers, PromptObject } from 'prompts'
 
-// object structure: message - type - name - choices(?) 
-const question = async (config) => {
+const question = async (
+  config: PromptObject
+): Promise<Answers<string> | undefined> => {
   if (config.type === 'select') return await prompts({ ...config })
   if (config.type === 'text') return await prompts({ ...config })
   if (config.type === 'confirm') return await prompts({ ...config })
