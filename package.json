@@ -43,6 +43,11 @@
     "kolorist": "^1.6.0",
     "prompts": "^2.4.2"
   },
+  "author": {
+    "name": "Alberto Rivera & Alex Tomas",
+    "email": "alberto.rivera.merida@gmail.com & atomasllimos@gmail.com",
+    "url": "https://www.linkedin.com/in/albertoriveramerida/ & https://www.linkedin.com/in/alex-tomas--/"
+  },
   "devDependencies": {
     "@types/degit": "^2.8.3",
     "@types/node": "^18.11.9",
